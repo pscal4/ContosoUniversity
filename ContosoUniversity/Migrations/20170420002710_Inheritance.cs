@@ -130,6 +130,7 @@ namespace ContosoUniversity.Migrations
         //        onDelete: ReferentialAction.Cascade);
         //}
 
+        // Note:  The Dowm method should be modified BUT the tutorial did not provide it.
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
